@@ -1,0 +1,86 @@
+ * {
+ 				transition: all 0.5s ease;
+ }
+
+ html {
+ 				scroll-behavior: smooth;
+ }
+
+ body {
+ 				font-family: 'Montserrat', sans-serif;
+ }
+
+ #logo {
+ 				font-family: 'Fredericka the Great', cursive;
+ }
+
+ header a:hover {
+ 				text-decoration: none;
+ }
+
+ #slogan {
+ 				font-family: monospace;
+ }
+
+ p {
+ 				text-align: justify;
+ }
+
+ nav ul>li:hover {
+ 				background-color: #0c7080;
+ }
+
+ a.dropdown-item:hover {
+ 				background-color: #0c7080;
+ 				color: white;
+ }
+
+ header, footer {
+ 				background-color: #0c7080 !important
+ }
+
+ #nav {
+ 				background-color: #005c6b;
+ }
+
+ div.course section, div.exercice section, div.category section {
+ 				border-bottom: dashed 5px rgb(226, 237, 249);
+ }
+
+ .ancre {
+ 				height: 70px;
+ }
+
+ div.category a.badge.skill {
+ 				background-color: #dfeefd;
+ }
+
+ footer img.galaxy {
+ 				width: 32px;
+ }
+ .scroller{
+	height: 50vh;
+	overflow-y:auto;
+}
+
+ @media screen and (max-width:991px) {
+ 				#summary {
+ 								z-index: 0;
+ 				}
+ }
+
+ @media screen and (max-width:767px) {
+ 				footer li {
+ 								list-style: none;
+ 				}
+ }
+
+ /****************************************************/
+
+ .jumbotron .bg-green {
+	 background-color: #005c6b;
+ }
+
+ .bg-blue {
+	 background-color: #0c7080;
+ }
